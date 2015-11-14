@@ -1,0 +1,6 @@
+platform: linux
+image: docker:///opencontrol/spruce
+inputs:
+- name: components
+run:
+  path: components/unit-test.sh
